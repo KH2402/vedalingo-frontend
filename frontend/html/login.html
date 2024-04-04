@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form id="loginForm">
+        <img src="../img/logo(1).png" class="logo" />
+        <h2>Welcome To Vedalingo</h2>
+        <div class="input-box">
+          <input type="email" id="email" placeholder="email" required />
+          <!-- new div for error message of email-->
+          <div id="emailError" class="error-message"></div>
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" id="password" placeholder="Password" required/>
+          <button id="togglePassword" type="button" class="toggle-password"> <i class="bx bxs-lock-alt"></i></button>
+          <!-- new div for error message of password-->
+          <div id="passwordError" class="error-message"></div>
+         
+        </div>
+        <!-- <div class="remember-forgot">
+          <a href="#">Forgot Password</a>
+        </div> -->
+        <button type="submit" id="btn" class="btn">Login</button>
+        <div class="register-link">
+          <p>Don't have an account? <a href="register.html">Register</a></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="../js/login.js"></script>
+  </body>
+</html>

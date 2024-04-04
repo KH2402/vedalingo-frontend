@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    /* color: #fff; */
+    scroll-behavior: smooth;
+     
+}
+
+
+.hidden {
+    display: none; /* Hide the content initially */
+}
+
+
+body{    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(../img/round_design.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin-left:20px ;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 170px;
+    cursor: pointer;
+}
+
+button{
+   width: 200px;
+   padding: 15px 0;
+   text-align: center;
+   margin: 20px 10px;
+   border-radius: 25px;
+   font-weight: bold;
+   font-size: medium;
+   border: 2px solid #fff;
+   background: transparent;
+   color: #fff;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+#homeBtn{
+   text-align: center;
+   border-radius: 25px;
+  
+}
+
+.translate-btn{
+    color: grey;
+    background-color: #fff;
+    border: 1px solid grey;
+ }
+
+ .translate-section{
+    background-color: whitesmoke;
+    padding: 25px 20px;
+    margin-top: 10px;
+ } 
+
+ .translate-area{
+   display: flex;
+   gap: 10px;
+   margin-top: 20px;
+ }
+
+ .input-section{
+    background: white;
+    border: 1px solid grey;
+   
+    border-radius: 5px;
+    width: 50%;
+ }
+ .generateBtn{
+    color: grey;
+    background-color: #fff;
+    border: 1px solid grey;
+    position: relative;
+    top: 10px;
+    width: 250px;
+    border-radius: 10px;
+ }
+
+ textarea{
+    padding: 5px;
+ }
+ #outputText{
+   margin: 20px 5px 5px 5px;
+
+   width: 90%;
+   height: 80%;
+   padding:  5px;
+   
+   
+ }
+ ul{
+    display: flex;
+    gap: 10px;
+ }
+ .user{
+    color: white;
+ }
